@@ -1,0 +1,506 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.otf);
+  }
+  /* * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+  } */
+  body{
+  font-family: Poppins;
+  background-color:rgb(248, 248, 248) ;
+  }
+  .underline>a:hover>span{
+    text-decoration: underline;
+  
+  }
+  /* .main-header-first{
+    position: fixed;
+    top:0em;
+    z-index: 20;
+  } */
+  .carousel-sec{
+    width:100vw;
+    /* margin-top: 180px; */
+  }
+  .card{
+    width:600px;
+  }
+  .header{
+    background-color: #95c93d;
+    
+    /* background-attachment: fixed;   */
+  
+  }
+  .footer-last>li{
+    margin-bottom: 0.5em;
+  }
+  ul:hover .fa-shopping-cart{
+    cursor: pointer;
+  }
+  ul:hover .login-class{
+    cursor: pointer;
+  }
+  .main-header-first>.main-header-first-1>span:hover .fa-twitter{
+    cursor: pointer;
+  }
+  .main-header-first>.main-header-first-1>span:hover .fa-facebook{
+    cursor: pointer;
+  }
+  .main-header-first>.main-header-first-1>span:hover .fa-instagram{
+    cursor: pointer;
+  }
+
+  .main-header-menu-section>.menu>.menu-item::after{
+    content: "";
+    height:3px;
+    width:0%;
+    display:inline-block;
+    position: absolute;
+   
+    bottom:-20px;
+    left: 0;
+    background-color: #4e7106;
+    transition: width 0.5s; 
+  }
+  .main-header-menu-section>.menu>.menu-item:hover::after{
+     width:100%;
+    
+  }
+  
+  .menu-item:hover span > i{ 
+    transform: rotateZ(180deg);
+   }
+  
+   .menu-item:hover span > i{ 
+  
+    transition: transform;
+    transition-duration: 0.5s;
+   }
+
+
+  .main-header-menu-section>.menu{
+    background-color: rgb(111,162,25);
+    display: flex;
+    list-style: None;
+  justify-content: center;
+  padding:0.5em 0;
+  margin-top: 8px;
+  }
+  .main-header-menu-section>.menu>li{
+    margin: 0 1.5em;
+    font-weight: bold;
+   
+  }
+  .menu-item{
+    position: relative;
+   
+   /* padding: 0.6em 0; */
+  }
+  .menu-item:hover> .sub-menu{
+    display:block;
+  }
+  .menu-item>.sub-menu{
+    background-color: white;
+    list-style: none;
+    padding:1em 1.5em;
+    position:absolute;
+    z-index: 4;
+    top:200%;
+    left:0;
+    display:none;
+  }
+  .menu-item>.sub-menu a{
+    text-decoration: none;
+    color:gray;
+  }
+  .menu-item>.sub-menu>.sub-menu-item{
+    margin:0.5em 0;
+    white-space: nowrap;
+    padding:0.5em 0em;
+  }
+  .find{
+    background-color: #95c93d;              /*class for find button */
+    color:white;
+  }
+  .header-menu-section a{
+    text-decoration: none;
+    
+  }
+  .header-menu-section{
+  background-color: rgb(111,162,25);
+  }
+  .color{
+    color:#95c93d;  
+  }
+  .carousel_card {
+  width:100vw;
+  }
+ 
+  .copyright{
+    background-color:rgb(39,35,36);
+    color:gray;
+    }
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .content{
+    width:50%;
+  }
+  .footer-top>.footer-first>.footer-icon:hover .fa-twitter{
+    cursor: pointer;
+  }
+  .footer-top>.footer-first>.footer-icon:hover .fa-linkedin{
+    cursor: pointer;
+  }
+  .footer-top>.footer-first>.footer-icon:hover .fa-facebook{
+    cursor: pointer;
+  }
+  .footer-top>.footer-first>.footer-icon:hover .fa-youtube{
+    cursor: pointer;
+  }
+  .footer-top>.footer-first>.footer-icon:hover .fa-instagram{
+    cursor: pointer;
+  } 
+  .footer-second-2:hover>span{
+    color:rgb(134,201,46);
+    cursor: pointer;
+  }
+  .footer-last>li:hover{
+    color:rgb(134,201,46);
+    cursor: pointer;
+  }
+  
+  /* this is the header part of which is used for changing the backgroundcolor */
+  .main-header-first {
+    background-color: #95c93d;
+  }
+  
+ .header-menu {
+    background-color: #6fa219;
+  } 
+  .about {
+
+    background-color: rgb(35, 31, 32);
+  
+  }
+  .footer-sec{
+    background-color: rgb(31,28,29);
+  }
+  /* this is for anchor elements of header present in menu */
+  
+  .header-menu a {
+    text-decoration: None;
+    color: white;
+  }
+  
+  /* this is used for setting the card background colour */
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.699);
+  }
+  .choose-battery{
+    position:relative;
+    top:-4em;   
+  }
+
+  .menu-item:hover{
+    cursor: pointer;
+  }
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+ 
+  
+   .margin{
+    margin-left:40px;
+   
+    width:450px;
+    height:420px;
+}
+   .cycle-slideshow { 
+    -webkit-perspective: 1000;
+    -webkit-transform-style: preserve-3d;
+    -moz-perspective: 1000;
+    -moz-transform-style: preserve-3d;
+    -o-perspective: 1000;
+    -o-transform-style: preserve-3d;
+    perspective: 1000;
+    transform-style: preserve-3d;  
+}
+   /* .slideshow { margin: auto }
+   .slideshow img { width: 200px; height: 200px; padding: 2px; }
+   div.responsive img { width: auto; height: auto }
+   .cycle-pager { position: static; margin-top: 5px }
+   div.vertical { width: 100px } */
+
+  .ind-carousel {
+    background-color: red;
+    width: 450px;
+    height: 420px;
+    position: relative;
+    margin:auto;
+  }
+  
+  .ind-carousel > .ind-carousel-items,
+  .ind-carousel > .ind-carousel-items .ind-carousel-item,
+  .ind-carousel > .ind-carousel-items .ind-carousel-item img {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  /* .image-cls{
+    height: 100%;
+    width: 100% ;
+  } */
+  .image-cls{
+    width: 450px;
+    height: 420px;
+    margin-left:40px;
+  }
+  .ind-carousel > .ind-carousel-items {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .ind-carousel > .ind-carousel-items::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .ind-carousel > .ind-carousel-controls {
+    position: absolute;
+  
+    top: 45%;
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    width: 100%;
+  
+    /* margin: 0 1em; */
+  }
+  
+  .ind-carousel > .ind-carousel-controls button {
+    background-color: transparent;
+    border: 0;
+    font-size: 3em;
+    color: rgb(188, 188, 188);
+    cursor: pointer;
+  }
+  
+  .ind-carousel > .ind-carousel-items .ind-carousel-item {
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+
+  .owlclass{
+    margin-top:50px;
+  }
+  .owl-class{
+    
+    width:120px;
+    height:100px;
+    /* margin:auto; */
+  }
+  /* .owl-class img{
+    width:100%;
+    height:100%;
+  } */
+  /* this is used for the mobile responsive css parts  */
+  @media screen and (min-device-width: 320px) and (max-device-width: 668px) and (-webkit-min-device-pixel-ratio: 2) {
+    .ham-menu{
+      margin: 1em 0;
+
+      display: flex;
+  
+      align-items: center;
+  
+      width: 100%;
+    }
+    .header-section-two .w-50 {
+      width: 100% !important;
+    }
+    .header-section-two .cart-icon {
+      position: absolute !important;
+      top: 10px !important;
+      right: 2px !important;
+      left:330px;
+      margin-top: 10px;
+    }
+   
+    .before-footer {
+      background-color: rgb(238, 231, 231);
+    }
+  
+    /* this is the accordians as we have used in the footer part list */
+  
+    .ind-accordion:hover .d-none {
+      display: flex !important;
+    }
+  
+    .ind-accordion .color {
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid green;
+      padding: 0.5em;
+    }
+  
+    .ind-accordion .color::after {
+      content: "\f107";
+      font-family: FontAwesome;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        background-color: #231f20
+      }
+      .before-footer{
+       margin-top: 50px;
+      }
+      .content{
+        width:100%;
+      }
+      .choose-battery{
+        flex-direction: column;
+        position:relative;
+        top:0px;
+    }
+  
+  .justify-class{
+    text-align: justify;
+  }
+  
+  .main-header-menu-section>.menu{
+    background-color: white;
+    color:gray;
+   margin-top: 0;
+    /* list-style: None; */
+  justify-content: flex-start;
+  padding:0em 0;
+  /* margin-left: 50px; */
+  flex-direction: column;
+  position: absolute;
+  top:0;
+  height:100vh;
+  /* width:80%; */
+  left:-80%;
+  z-index: 2;
+  }
+  .main-header-menu-section>.menu>.menu-item{
+    margin-left: 40px;
+  }
+  .user{
+   
+    display: flex;
+    /* margin:0 !important; */
+  }
+ 
+.user>div{
+display: flex;
+/* margin-left: 35px; */
+/* justify-content: space-between; */
+width:100%;
+padding:8px 0;
+align-items: center;
+}
+.user>div>button{
+background-color: transparent;
+}
+.main-header-menu-section>.menu>li{
+margin:0.5em 0;
+/* font-weight: bold; */
+margin-left: 0.5em;
+
+}
+.main-header-menu-section>.menu>li .sub-menu{
+position: relative;
+top:0;
+
+}
+.main-header-menu-section>.menu>li .sub-menu > li{
+
+border-bottom: 1px solid black;
+}
+.main-header-menu-section>.menu>li a{
+color:gray;
+}
+.image-cls{
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.owl-class{
+    
+  width:55px;
+  height:80px;
+  /* margin:auto; */
+}
+
+
+.ind-carousel-1 > .ind-carousel-controls-1 button {
+  background-color: transparent;
+  border: 0;
+  font-size: 2em;
+  color: rgb(188, 188, 188);
+  cursor: pointer;
+}
+
+.ind-carousel-1 > .ind-carousel-items-1 .ind-carousel-item-1{
+  flex-shrink: 0; 
+  position: relative;
+}
+.ind-carousel-1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin:auto;
+}
+
+.ind-carousel-1 > .ind-carousel-items-1,
+.ind-carousel-1 > .ind-carousel-items-1.ind-carousel-item-1,
+.ind-carousel-1 > .ind-carousel-items-1 .ind-carousel-item-1 img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.ind-carousel-1 > .ind-carousel-items-1 {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.ind-carousel-1 > .ind-carousel-items-1::-webkit-scrollbar {
+  display: none;
+}
+
+.ind-carousel-1 > .ind-carousel-controls-1 {
+  position: absolute;
+
+  top: 40%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+  /* margin: 0 1em; */
+}
+
+  }
+  
